@@ -60,15 +60,25 @@
         font-family: 'Roboto Mono';
         font-weight: 300; font-size: 0.875em;
         background: #f0f0f0;
-        padding: 0 0.5em;
+        padding: 0.5em;
         border: 1px solid rgba(0,0,0,0.05);
+        display: block;
+        overflow-x: auto;
       }
 
-      .remark-inline-code { display: inline-block; }
+      .remark-inline-code {
+        display: inline-block;
+        padding: 0 0.5em;
+        overflow-x: initial;
+      }
 
       .remark-slide-content.title {
         background: #fecb2f;
         color: #333;
+      }
+
+      .remark-slide-content.title h1 {
+        margin-bottom: 0;
       }
     </style>
   </head>
@@ -78,6 +88,8 @@
 class: center, middle, title
 
 # Zero Config React
+
+.subtitle[ExchangeJS – Dec 1, 2016]
 
 ---
 class: left, middle
@@ -95,7 +107,7 @@ class: left, middle
 
 - Familiarity with ES6 syntax – [I wrote a quick primer](https://github.com/ExchangeJS/zero-config-react/blob/master/appendix-a-brief-es6-primer.md) if you're looking for somewhere to start
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) (Chrome)
-- Cloning the [example project](https://github.com/ExchangeJS/zero-config-react), run the `git checkout` commands found at the beginning of each section
+- Clone the [example project](https://github.com/ExchangeJS/zero-config-react), run the `git checkout` commands found at the beginning of each section, view the code and app locally
 - [The official React docs](https://facebook.github.io/react/docs/hello-world.html)
 
 ---
@@ -173,7 +185,7 @@ myappname/
 
 
 ---
-class: left, middle
+class: center, middle
 
 ## Start Hacking!
 
