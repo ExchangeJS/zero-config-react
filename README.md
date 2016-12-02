@@ -9,22 +9,25 @@ to build client-side web applications. We start from a clean slate and build out
 team randomization web app.
 
 
-## Prefix: Getting Set Up
+## Prefix: Using this Repo
+(and accompanying tutorial)
 
-#### You'll need:
+#### Clone & Install
 
-- nodejs (https://nodejs.org)
-- npm (https://www.npmjs.com)
-- a web browser
+- `git clone git@github.com:ExchangeJS/zero-config-react.git`
+- `cd zero-config-react`
+- `git pull --tags`
+- `npm install`
 
-#### You'll find useful:
+#### Follow
 
-- a familiarity with ES6 syntax [I made a quick primer](appendix-a-brief-es6-primer.md) if you're looking for somewhere to start
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) (Chrome)
-- follow along by cloning this repo locally, and then running the `git checkout` commands found at the beginning of each section
+To view the code as it stands for each section, you can `git checkout tags/<version>` as shown in the table of contents below.
+
+You may also find it helpful to look at the code diffs directly in Github for each commit (https://github.com/ExchangeJS/zero-config-react/commits/master)
+
 
 ----
-
+## Table of Contents
 |                           Section                            |                            |
 |--------------------------------------------------------------|----------------------------|
 | [Part 1: Create React App](#part-1-create-react-app)         | `git checkout tags/v0.1.0` |
@@ -43,6 +46,19 @@ team randomization web app.
 
 ## Part 1: Create React App
 `git checkout tags/v0.1.0`
+
+#### You'll need:
+
+- nodejs (https://nodejs.org)
+- npm (https://www.npmjs.com)
+- a web browser
+
+#### You'll find useful:
+
+- a familiarity with ES6 syntax [I made a quick primer](appendix-a-brief-es6-primer.md) if you're looking for somewhere to start
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) (Chrome)
+- follow along by cloning this repo locally, and then running the `git checkout` commands found at the beginning of each section
+
 
 #### 1. Install create-react-app from npm
 
